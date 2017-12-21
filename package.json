@@ -9,7 +9,7 @@
     "url": "https://github.com/cakao/cakao.git"
   },
   "bin": {
-    "naivecoin": "bin/cakao.js"
+    "cakao": "bin/cakao.js"
   },
   "scripts": {
     "start": "node bin/cakao.js",
