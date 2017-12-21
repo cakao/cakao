@@ -1,18 +1,18 @@
 {
-  "name": "naivecoin",
-  "version": "0.0.1",
-  "description": "Naivecoin, a cryptocurrency demonstration",
-  "homepage": "https://github.com/conradoqg/naivecoin",
+  "name": "cakao",
+  "version": "1.0.0-0",
+  "description": "As far as the Aztecs are concerned, capital grows in trees. –cakao",
+  "homepage": "https://github.com/cakao/cakao",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/conradoqg/naivecoin.git"
+    "url": "https://github.com/cakao/cakao.git"
   },
   "bin": {
-    "naivecoin": "bin/naivecoin.js"
+    "naivecoin": "bin/cakao.js"
   },
   "scripts": {
-    "start": "node bin/naivecoin.js",
+    "start": "node bin/cakao.js",
     "compose:up": "docker-compose up",
     "test": "node_modules/.bin/nyc --reporter=lcov --reporter=text --clean node node_modules/mocha/bin/_mocha -u bdd --colors test/"
   },
